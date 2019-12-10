@@ -13,6 +13,7 @@ copyright:           2019 M Farkas-Dyck
 category:            Data,Text
 build-type:          Custom
 extra-source-files:
+    src/Data/Char/Properties/BidiBrackets.ucd-bidi-brackets
     src/Data/Char/Properties/DerivedCore.ucd-derived-core-properties
 extra-doc-files:     README.md
                    , CHANGELOG.md
@@ -54,8 +55,10 @@ library
   import:              c
   hs-source-dirs:      src
   exposed-modules:     Data.Char.Properties
+                       Data.Char.Properties.BidiBrackets
                        Data.Char.Properties.DerivedCore
-  autogen-modules:     Data.Char.Properties.DerivedCore
+  autogen-modules:     Data.Char.Properties.BidiBrackets
+                       Data.Char.Properties.DerivedCore
   build-depends:
 
 test-suite test
