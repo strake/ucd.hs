@@ -1,8 +1,8 @@
 cabal-version:       3.0
 name:                ucd
 version:             0.0.0.0
-synopsis:            See README for more info
-description:         See README for more info
+synopsis:            Unicode Character Database — Predicates on characters specified by Unicode
+--description:         
 homepage:            https://github.com/strake/ucd.hs
 bug-reports:         https://github.com/strake/ucd.hs/issues
 license:             BSD-3-Clause
