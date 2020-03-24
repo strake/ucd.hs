@@ -28,7 +28,7 @@ import           Data.Map (Map)
 import qualified Data.Map as Map
 import           Numeric (showHex)
 import           System.Directory (createDirectoryIfMissing)
-import           Text.Regex.Applicative
+import           Text.Regex.Applicative (RE, match, psym, string, sym)
 import           Text.Regex.Applicative.Common (hexadecimal)
 import           Util hiding (intercalate)
 
