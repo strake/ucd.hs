@@ -24,7 +24,6 @@ tested-with:         GHC == 8.4.4
 
 common c
   build-depends:       base ^>= {4.11, 4.12, 4.13}
-                     , util ^>= 0.1.14
   ghc-options:         -Wall
                        -Wcompat
                        -Wredundant-constraints
